@@ -1,7 +1,7 @@
 import { LoginResponse } from "@/app/services/api";
 import axios from "axios";
 
-const API_URL = "https://tool-nest-backend-p8w6il32h-failalihaytams-projects.vercel.app/api/api"; // Adjust this to match your backend URL
+const API_URL = "https://tool-nest-backend-8m7yzs9io-failalihaytams-projects.vercel.app/api/api"; // Adjust this to match your backend URL
 
 const api = axios.create({
   baseURL: API_URL,

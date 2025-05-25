@@ -3,7 +3,7 @@ import axios from 'axios'
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
 
 // API base URL
-const API_URL = 'https://tool-nest-backend-p8w6il32h-failalihaytams-projects.vercel.app/api/api'
+const API_URL = 'https://tool-nest-backend-8m7yzs9io-failalihaytams-projects.vercel.app/api/api'
 
 interface User {
   id: string
@@ -309,7 +309,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refreshUser = async () => {
     try {
-      const response = await fetch('https://tool-nest-backend-p8w6il32h-failalihaytams-projects.vercel.app/api/api/user', {
+      const response = await fetch('https://tool-nest-backend-8m7yzs9io-failalihaytams-projects.vercel.app/api/api/user', {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('auth_token')}`
         }
