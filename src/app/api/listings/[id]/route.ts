@@ -13,7 +13,7 @@ export async function GET(
       )
     }
 
-    const response = await fetch(`https://tool-nest-backend-8m7yzs9io-failalihaytams-projects.vercel.app/api/api/listings/${params.id}`)
+    const response = await fetch(`https://tool-nest-backend-glfb9n7sf-failalihaytams-projects.vercel.app/api/api/listings/${params.id}`)
     const data = await response.json()
     return NextResponse.json(data)
   } catch (error) {
