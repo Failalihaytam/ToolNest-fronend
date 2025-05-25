@@ -1,0 +1,19 @@
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon input,
+.input-with-icon select {
+  padding-left: 2.75rem !important;
+  width: 100%;
+}
+
+.input-with-icon svg {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--toolnest-gray-400);
+  pointer-events: none;
+  z-index: 1;
+}
