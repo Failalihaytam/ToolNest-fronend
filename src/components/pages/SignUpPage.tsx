@@ -31,7 +31,7 @@ export default function SignUpPage() {
   useEffect(() => {
     const fetchCities = async () => {
       try {
-        const response = await fetch('https://tool-nest-backend-glfb9n7sf-failalihaytams-projects.vercel.app/api/api/cities')
+        const response = await fetch('https://tool-nest-backend.vercel.app/api/api/cities')
         const data = await response.json()
         if (data.status === 'success') {
           setCities(data.data)

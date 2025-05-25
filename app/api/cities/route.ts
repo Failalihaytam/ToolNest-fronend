@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 export async function GET() {
   try {
     // Replace with your actual Laravel backend URL
-    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://tool-nest-backend-glfb9n7sf-failalihaytams-projects.vercel.app/api';
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://tool-nest-backend.vercel.app/api';
     const response = await fetch(`${backendUrl}/api/cities`); 
 
     if (!response.ok) {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://tool-nest-backend-glfb9n7sf-failalihaytams-projects.vercel.app/api/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://tool-nest-backend.vercel.app/api/api";
 
 const api = axios.create({
   baseURL: API_URL,
